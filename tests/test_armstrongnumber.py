@@ -7,3 +7,7 @@ def test_armstrong_numner_returns_true():
 
 def test_armstrong_number_returns_false():
     assert armstrong_number(10) == False
+
+
+def test_armstrong_number_153_true():
+    assert armstrong_number(153) == True
