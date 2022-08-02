@@ -1,5 +1,5 @@
-from scripts.armstrongnumber.py import armstrong_numner
+from scripts.armstrongnumber import armstrong_number
 
 
 def test_armstrong_numner_returns_9():
-    assert armstrong_numner(9) == 9
+    assert armstrong_number(9) == True
