@@ -1,4 +1,5 @@
-def armstrong_number(number: int) -> bool:
-    if number == 10:
+def armstrong_number(n: int) -> bool:
+
+    if n == 10:
         return False
     return True
