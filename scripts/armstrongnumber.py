@@ -1,18 +1,12 @@
 def armstrong_number(n: int) -> bool:
-    num_str = str(n)
+    chars = str(n)
     calc = []
-    place = len(num_str)
-    for char in num_str:
-        calc.append(int(char) ** place)
-        print(calc)
-        place -= 1
+    for char in chars:
+        calc.append(int(char) ** len(chars))
     result = sum(calc)
-    print(type(result))
-    print(type(n))
     if result != n:
         return False
     return True
 
 
-print(armstrong_number(9))
-print(armstrong_number(10))
+print(armstrong_number(153))
